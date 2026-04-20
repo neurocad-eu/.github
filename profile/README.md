@@ -29,6 +29,18 @@ Current public repositories:
 - [`neurocad-architecture`](https://github.com/neurocad-eu/neurocad-architecture) for public system overview and boundary documentation
 - [`.github`](https://github.com/neurocad-eu/.github) for organization profile and default governance files
 
+## Operational signals
+
+The public layer is intentionally structured to show engineering discipline:
+
+- versioned GitHub releases across the public repositories
+- validation workflows on contracts, examples, benchmark packages, and architecture docs
+- explicit public schemas and sample artifacts
+- release notes and checksums for benchmark packaging
+- architecture decision records for public boundary choices
+
+This is not a marketing mirror. It is the inspectable technical shell around the private platform.
+
 ## Private core
 
 The following layers remain proprietary:
@@ -52,6 +64,12 @@ If you are evaluating NeuroCAD for:
 - infrastructure or model diligence
 
 please contact us directly.
+
+## Working with the public repositories
+
+- use GitHub issues for repository-scoped documentation or integration questions
+- use private email for security disclosure and diligence paths
+- expect the public surface to evolve through tagged releases rather than silent changes
 
 ## Links
 

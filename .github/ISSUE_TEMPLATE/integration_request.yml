@@ -1,0 +1,51 @@
+name: Integration request
+description: Request a public example, guide, or contract clarification for integration work.
+title: "[integration] "
+labels:
+  - enhancement
+  - kind:integration
+  - status:needs-triage
+body:
+  - type: dropdown
+    id: repository
+    attributes:
+      label: Repository
+      options:
+        - neurocad-api-docs
+        - neurocad-examples
+        - neurocad-architecture
+        - neurocad-benchmarks
+    validations:
+      required: true
+  - type: input
+    id: system
+    attributes:
+      label: External system or platform
+      placeholder: Example: PLM connector, simulation pipeline, internal orchestration
+    validations:
+      required: true
+  - type: textarea
+    id: use_case
+    attributes:
+      label: Use case
+      description: Describe the integration path you are trying to validate.
+    validations:
+      required: true
+  - type: textarea
+    id: requested_surface
+    attributes:
+      label: What public artifact is missing
+      description: Example: endpoint clarification, schema example, webhook sample, benchmark note
+    validations:
+      required: true
+  - type: dropdown
+    id: environment
+    attributes:
+      label: Target environment
+      options:
+        - sandbox
+        - production-planning
+        - architecture review
+        - benchmark review
+    validations:
+      required: true

@@ -1,0 +1,50 @@
+name: Bug report
+description: Report a problem in a NeuroCAD public repository.
+title: "[bug] "
+labels:
+  - bug
+  - status:needs-triage
+body:
+  - type: dropdown
+    id: repository
+    attributes:
+      label: Repository
+      options:
+        - neurocad-api-docs
+        - neurocad-benchmarks
+        - neurocad-examples
+        - neurocad-architecture
+        - .github
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: State the problem in one or two sentences.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Reproduction
+      description: Include exact steps, commands, or links when possible.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: Impact
+      description: Describe integration, review, or diligence impact.
