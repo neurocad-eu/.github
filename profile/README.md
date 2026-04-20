@@ -21,12 +21,13 @@ The public repositories in this organization are intended to show real technical
 
 ## Public surface
 
-As this organization expands, its public repositories will cover:
+Current public repositories:
 
-- API specifications and SDK references
-- benchmark datasets and evaluation artifacts
-- reference integrations and usage examples
-- shared documentation and engineering standards
+- [`neurocad-api-docs`](https://github.com/neurocad-eu/neurocad-api-docs) for API contracts, guides, and SDK-facing examples
+- [`neurocad-benchmarks`](https://github.com/neurocad-eu/neurocad-benchmarks) for selected benchmark artifacts, metadata, and protocol notes
+- [`neurocad-examples`](https://github.com/neurocad-eu/neurocad-examples) for reference integration examples
+- [`neurocad-architecture`](https://github.com/neurocad-eu/neurocad-architecture) for public system overview and boundary documentation
+- [`.github`](https://github.com/neurocad-eu/.github) for organization profile and default governance files
 
 ## Private core
 
