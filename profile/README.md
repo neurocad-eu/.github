@@ -45,7 +45,7 @@ This is not a marketing mirror. It is the inspectable technical shell around the
 
 The primary public documentation landing page for integrations is:
 
-- [neurocad-eu.github.io/neurocad-api-docs](https://neurocad-eu.github.io/neurocad-api-docs/)
+- [docs.neurocad.eu](https://docs.neurocad.eu/)
 
 ## Private core
 
