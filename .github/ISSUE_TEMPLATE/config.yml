@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Partnership or enterprise inquiry
+    url: https://neurocad.eu
+    about: Use the website contact path for partnership and enterprise conversations.
+  - name: Security disclosure
+    url: mailto:office@neurocad.eu
+    about: Report potential security issues privately by email.
