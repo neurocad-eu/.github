@@ -41,6 +41,12 @@ The public layer is intentionally structured to show engineering discipline:
 
 This is not a marketing mirror. It is the inspectable technical shell around the private platform.
 
+## Public docs entry point
+
+The primary public documentation landing page for integrations is:
+
+- [neurocad-eu.github.io/neurocad-api-docs](https://neurocad-eu.github.io/neurocad-api-docs/)
+
 ## Private core
 
 The following layers remain proprietary:
